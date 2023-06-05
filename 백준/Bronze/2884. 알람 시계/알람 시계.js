@@ -6,11 +6,11 @@ let [H, M] = input[0].split(' ').map(Number);
 M -= 45;
 
 if (M < 0) { 
-  M += 60; 
-  H -= 1; 
+  M += 60;
+  H -= 1;
 
-  if (H < 0) { 
-    H = 23; 
+  if (H < 0) {
+    H += 24;
   }
 }
 
